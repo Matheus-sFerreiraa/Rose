@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Cause:wght@100..900&family=Geom:ital,wght@0,300..900;1,300..900&family=Marck+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+NO:wght@100..400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.interface-all{
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #C9B59C;
+    
+    width: 100%;
+    box-shadow: 0px 0px 20px black;
+    
+}
+
+header .interface-all .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+
+    
+}
+
+
+header .interface-all .header .name h1 span{
+    font-family: "Marck Script", cursive;
+    font-weight: bolder;
+    font-size: 2.4rem;
+    line-height: 30px;
+}
+
+header .interface-all .header .name{
+    width: 160px;
+}
+
+header .interface-all .header .name span{
+    display: flex;
+    text-shadow: 3px 5px 3px rgba(0, 0, 0, 0.301);
+}
+
+header .interface-all .header .name .word-salgados{
+    justify-content: end;
+}
+
+header .interface-all .header .nav-header ul{
+    list-style: none;
+    display: flex;
+}
+
+
+
+header .interface-all .header .nav-header ul li a{
+    text-decoration: none;
+    font-size: 1.18rem;
+    color: black;
+    margin: 0px 5px;
+    padding: 15px 25px;
+    position: relative;
+    transition: 0.2s;
+    border-top-left-radius: 10px;
+    
+}
+
+header .interface-all .header .nav-header ul li .btn-contact{
+    margin-left: 35px;
+}
+
+header .interface-all .header .nav-header ul li a:hover{
+    background-color: #F9F8F6;
+    
+}
+
+header .interface-all .header .nav-header ul li a::after{
+    content: " ";
+    width: 0%;
+    background-color: black;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.2s;
+    
+
+}
+
+header .interface-akll .header .nav-header ul li a:hover::after{
+    width: 100%;
+
+}
+
+/* section hero*/
+
+.hero{
+    height: 95vh;
+    background-color: #EFE9E3;
+}
+
+.hero .interface{
+    height: 85%;
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    
+    
+}
+
+.hero .interface .container{
+    display: flex;
+    margin-top: 100px;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(../imagens/background\ \(1\)\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 30px 10px;
+    box-shadow: inset 0px 0px 20px rgb(0, 0, 0);
+    border-radius: 100px 0;
+}
+
+.hero .interface .container .text{
+    width: 800px;
+}
+
+.hero .interface .container img{
+    border-radius: 10px;
+}
