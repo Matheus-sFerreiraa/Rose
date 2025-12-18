@@ -39,11 +39,3 @@ btnVerBisco.addEventListener('click', function(event){
     secaoBisco.style.setProperty('display', 'block', 'important')
     secaoBisco.scrollIntoView({ behavior : 'smooth'})
 })
-
-
-
-
-
-console.log("Hello World")
-
-print('Hello World')
